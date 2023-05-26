@@ -23,7 +23,7 @@ When hen creating a client you will have acquired client_id and client_secret. W
 curl -u {client_id}:{client_secret} -XPOST https://provider.quant1.com.br/oauth/token -F grant_type=password -F username={username} -F password={password} -F scope=profile
 ```
 
-Se os dados inseridos forem compativéis com o o seu client, você tera uma resposta em json contendo o token de autorização no formato bearer:
+If the data entered is compatible with your client, you will have a json response containing the authorization token in bearer format:
 
 ```
 {"access_token": "acess_token", "expires_in": "expires_in", "refresh_token": "refresh_token", "scope": "scope", "token_type": "Bearer"}
