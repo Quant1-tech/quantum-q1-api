@@ -10,12 +10,12 @@ Our services work throung a dual authentication system, using a user token provi
 
 To get an authorization token, you must create a client of type Client Credentials Grand. Do this by following these steps:
 
-1. 1\.  click the button to create a new client. You will be directed to our creation client.
-2. 2\. The client name field can be filled in at your choice;
-3. 3\. The allowed scope field must be filled as **profile;**
-4. 4\. The allowed grand types field must be filled as **password;**
-5. 5\. The client uri, redirect uri and allowed response types can be left blank for the client credentials type.
-6. 6\. The token endpoint auth method field can be changed between client_secret_basic and client_secret_post, where respectively the client uses HTTP basic authentication and HTTP POST parameters.
+1. click the button to create a new client. You will be directed to our creation client.
+2. The client name field can be filled in at your choice;
+3. The allowed scope field must be filled as **profile;**
+4. The allowed grand types field must be filled as **password;**
+5. The client uri, redirect uri and allowed response types can be left blank for the client credentials type.
+6. The token endpoint auth method field can be changed between client_secret_basic and client_secret_post, where respectively the client uses HTTP basic authentication and HTTP POST parameters.
 
 When hen creating a client you will have acquired client_id and client_secret. With this data you will get a token through a terminal, or by executing some HTTP algorithm in a programming language of your choice. Here's an example using the curl tool:
 
