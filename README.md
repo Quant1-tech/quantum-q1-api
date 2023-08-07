@@ -1,8 +1,6 @@
-# quantum-q1-api
-Financial market quantitative methods API
 # Quantum - Q1 tutorial
 
-#### Repository dedicated to Quantum API usage instructions.
+#### Repository dedicated to Quantum API's usage instructions.
 
 ## Authentication
 
