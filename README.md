@@ -1,6 +1,6 @@
 # Quantum - Q1 tutorial
 
-#### Repository dedicated to Quantum API's usage instructions.
+#### Repository dedicated to Quantum API usage instructions.
 
 ## Authentication
 
